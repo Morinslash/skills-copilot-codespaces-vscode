@@ -58,4 +58,4 @@ function serveStatic(response, cache, absPath) {
 }
 
 // handle socket.io
-var chatServer = require(
+var chatServer = require('./lib/chat_server');
